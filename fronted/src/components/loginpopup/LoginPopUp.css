@@ -7,6 +7,8 @@
     display: grid;
 }
 
+
+
 .login-popup-container{
     place-self: center;
     width: max(23vw,330px);
@@ -26,14 +28,13 @@
     justify-content: space-between;
     align-items: center;
     color: black;
-
 }
 
 .login-popup-title img{
     width: 16px;
     cursor: pointer;
-   
 }
+
 
 .login-popup-inputs{
     display: flex;
