@@ -2,8 +2,8 @@
 import Navbar from './components/navbar/Navbar'
 import Sidebar from './components/sidebar/Sidebar'
 import { Routes,Route } from 'react-router-dom'
-import Add from './pages/Add/Add'
-import List from './pages/List/List'
+import Add from './pages/add/Add'
+import List from './pages/list/List'
 import Order from './pages/orders/Order'
  import { ToastContainer } from 'react-toastify';
  
