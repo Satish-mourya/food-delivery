@@ -44,7 +44,7 @@ app.get("/",(req,res)=>{
 
 })        // can request
 
-app.listen(port,"0.0.0.0",()=>{
+app.listen(port,()=>{
     console.log(`server started on http://localhost:${port}`)
 })
 
