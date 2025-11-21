@@ -16,7 +16,15 @@ const port=process.env.PORT||4000;
 
 // middleware
 app.use(express.json()) // get a request it will parse use json
-app.use(cors())// can acess backend from fronted
+app.use(cors({
+  origin: [
+    "https://zesto-food.onrender.com",     // frontend
+    "https://tomato-bvcs.onrender.com"     // admin panel
+  ],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
+
 
 
 // db connecetion
