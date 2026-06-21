@@ -18,8 +18,8 @@ const port=process.env.PORT||4000;
 app.use(express.json()) // get a request it will parse use json
 app.use(cors({
   origin: [
-    "https://zesto-food.onrender.com",     // frontend
-    "https://tomato-bvcs.onrender.com"     // admin panel
+    "https://food-delivery-fron-pbv3.onrender.com",     // frontend
+    "https://food-delivery-admin-75kt.onrender.com"     // admin panel
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
